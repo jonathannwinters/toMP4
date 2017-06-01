@@ -1,23 +1,24 @@
 <#
-#
-#title           :toMP4.ps1
-#description     :This script recursively navigates a given folder/directory
-#                 to find video files (*.avi,*.mkv,*.ogm,*.wmv) and converts them to .mp4  placing the newly 
-#                 generated .mp4 files into the given destination folder with the same folder strucure.
-#author          :Jonathan N. Winters, jnw25@cornell.edu
-#date            :20170531
-#version         :0.3
-#usage           :powershell .\toMP4.ps1 [directory]
-#notes           :to install, move this script to /usr/local/bin/bcp , 
-#                  requires HandbrakeCLI https://handbrake.fr/downloads2.php
-#
+.SYNOPSIS
+  Converts existing video files to MP4
+.DESCRIPTION
+  This script recursively navigates a given folder
+  to find video files (*.avi,*.mkv,*.ogm,*.wmv) and converts 
+  them to .mp4  placing the newly  generated .mp4 files into 
+  the given destination folder with the same folder strucure.
+.NOTES
+  File Name : toMP4.ps1
+  Author  :  Jonathan N. Winters, jnw25@cornell.edu
+  Requires  : Powershell V2, Handbrake CLI <https://handbrake.fr/downloads2.php>
+  Creation Date : 20170531
+  Version : 0.3
+  Usage : powershell .\toMP4.ps1 
 #>
 
 
 
 #output script info
 Write-Host -------------------------------------------------------------------------------
-Write-Host 
 Write-Host " _        __  __ ____  _  _   "
 Write-Host "| |_ ___ |  \/  |  _ \| || |  "
 Write-Host "| __/ _ \| |\/| | |_) | || |_ "
