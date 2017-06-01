@@ -5,12 +5,11 @@
 #                 to find video files (*.avi,*.mkv,*.ogm,*.wmv) and converts them to .mp4  placing the newly 
 #                 generated .mp4 files into the given destination folder with the same folder strucure.
 #author          :Jonathan N. Winters, jnw25@cornell.edu
-#date            :20170409
-#version         :0.1   
+#date            :20170531
+#version         :0.3
 #usage           :powershell .\toMP4.ps1 [directory]
-#notes           :to install, move this script to /usr/local/bin/bcp
-#bash_version    :N/A
-
+#notes           :to install, move this script to /usr/local/bin/bcp , 
+                  requires HandbrakeCLI https://handbrake.fr/downloads2.php
 
 #>
 
