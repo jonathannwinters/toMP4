@@ -1,5 +1,5 @@
 <#
-
+#
 #title           :toMP4.sh
 #description     :This script recursively navigates a given folder/directory
 #                 to find video files (*.avi,*.mkv,*.ogm,*.wmv) and converts them to .mp4  placing the newly 
@@ -9,8 +9,8 @@
 #version         :0.3
 #usage           :powershell .\toMP4.ps1 [directory]
 #notes           :to install, move this script to /usr/local/bin/bcp , 
-                  requires HandbrakeCLI https://handbrake.fr/downloads2.php
-
+#                  requires HandbrakeCLI https://handbrake.fr/downloads2.php
+#
 #>
 
 
