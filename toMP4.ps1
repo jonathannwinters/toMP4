@@ -1,6 +1,6 @@
 <#
 #
-#title           :toMP4.sh
+#title           :toMP4.ps1
 #description     :This script recursively navigates a given folder/directory
 #                 to find video files (*.avi,*.mkv,*.ogm,*.wmv) and converts them to .mp4  placing the newly 
 #                 generated .mp4 files into the given destination folder with the same folder strucure.
