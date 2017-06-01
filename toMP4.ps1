@@ -1,7 +1,7 @@
 <#
 
 #title           :toMP4.sh
-#description     :This script creates recursively navigates a given folder/directory
+#description     :This script recursively navigates a given folder/directory
 #                 to find .mkv video files and converts them to mp4 and places them in the given destination folder.
 #author          :Jonathan N. Winters, jnw25@cornell.edu
 #date            :20170409
