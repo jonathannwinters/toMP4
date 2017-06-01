@@ -52,7 +52,7 @@ Write-Host "Source folder      ="  $sourceFolder
 
 
 #get root folder path
-$destFolder =  Read-FolderBrowserDialog -Message "Please select a source directory" -InitialDirectory '%USERPROFILE%\Desktop' -NoNewFolderButton 
+$destFolder =  Read-FolderBrowserDialog -Message "Please select a destination directory" -InitialDirectory '%USERPROFILE%\Desktop' -NoNewFolderButton 
 Write-Host "Destination folder ="  $destFolder
 
 
